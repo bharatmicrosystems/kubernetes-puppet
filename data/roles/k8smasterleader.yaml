@@ -18,16 +18,16 @@ profile::kubeapps:
     directory: 'kubernetes/weave-scope'
   db:
     gitUrl: 'https://github.com/bharatmicrosystems/postgres.git'
-    directory: 'etp-postgres'
+    directory: 'postgres'
   jira:
     gitUrl: 'https://github.com/bharatmicrosystems/jira.git'
-    directory: 'etp-jira'
+    directory: 'jira'
   confluence:
     gitUrl: 'https://github.com/bharatmicrosystems/confluence.git'
-    directory: 'etp-confluence'
+    directory: 'confluence'
   bitbucket:
     gitUrl: 'https://github.com/bharatmicrosystems/bitbucket.git'
-    directory: 'etp-bitbucket'
+    directory: 'bitbucket'
   nexus:
     gitUrl: 'https://github.com/bharatmicrosystems/nexus.git'
-    directory: 'etp-nexus'
+    directory: 'nexus'
