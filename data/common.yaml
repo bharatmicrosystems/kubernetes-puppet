@@ -1,0 +1,5 @@
+---
+motd::welcomeMessage: 'Hello world!! Hiera is working again!!'
+package:
+ tree:
+  ensure: installed

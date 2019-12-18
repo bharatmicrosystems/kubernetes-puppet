@@ -1,0 +1,33 @@
+---
+profile::kubemasterleader::dashboardDomain: 'kubedashboard.example.com'
+profile::kubeapps:
+  ingress:
+    gitUrl: 'https://github.com/bharatmicrosystems/kubernetes.git'
+    directory: 'kubernetes/ingress'
+  kubedashboard:
+    gitUrl: 'https://github.com/bharatmicrosystems/kubernetes.git'
+    directory: 'kubernetes/kubernetes-dashboard'
+  metrics-server:
+    gitUrl: 'https://github.com/bharatmicrosystems/kubernetes.git'
+    directory: 'kubernetes/metrics-server/deploy/1.8+/'
+  prometheus-grafana:
+    gitUrl: 'https://github.com/bharatmicrosystems/kubernetes.git'
+    directory: 'kubernetes/prometheus-grafana'
+  weave-scope:
+    gitUrl: 'https://github.com/bharatmicrosystems/kubernetes.git'
+    directory: 'kubernetes/weave-scope'
+  db:
+    gitUrl: 'https://github.com/bharatmicrosystems/postgres.git'
+    directory: 'etp-postgres'
+  jira:
+    gitUrl: 'https://github.com/bharatmicrosystems/jira.git'
+    directory: 'etp-jira'
+  confluence:
+    gitUrl: 'https://github.com/bharatmicrosystems/confluence.git'
+    directory: 'etp-confluence'
+  bitbucket:
+    gitUrl: 'https://github.com/bharatmicrosystems/bitbucket.git'
+    directory: 'etp-bitbucket'
+  nexus:
+    gitUrl: 'https://github.com/bharatmicrosystems/nexus.git'
+    directory: 'etp-nexus'

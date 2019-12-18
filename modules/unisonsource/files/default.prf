@@ -1,0 +1,12 @@
+# Unison preferences file
+#
+repeat = watch
+root = /kubevolumes/
+root = ssh://root@node01//kubevolumes/
+group=true
+owner=true
+prefer=newer
+times=true
+batch=true
+auto=true
+force=newer

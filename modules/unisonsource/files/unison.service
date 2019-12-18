@@ -1,0 +1,13 @@
+[Unit]
+Description=unison Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/unison default
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
